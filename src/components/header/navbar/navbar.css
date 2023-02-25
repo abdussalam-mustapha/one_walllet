@@ -1,1 +1,5 @@
-/*# sourceMappingURL=navbar.css.map */
+.navbar_section .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=navbar.css.map */

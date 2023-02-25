@@ -1,4 +1,5 @@
 import React from 'react'
+import "./navbar.css"
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <div className="logo_section">
                 <img src="" alt="" />
                 <img src="" alt="" />
-                <p className="logo_name"></p>
+                <p className="logo_name">One wallet</p>
             </div>
             <div className="nav_btn">
                 <button className="btn">Download App</button>
