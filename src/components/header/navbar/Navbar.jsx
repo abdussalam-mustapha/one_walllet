@@ -1,11 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-</head>
-<body>
+import React from 'react'
+
+const Navbar = () => {
+  return (
     <section className="navbar_section">
         <nav className="navbar">
             <div className="logo_section">
@@ -18,5 +14,8 @@
             </div>
         </nav>
     </section>
-</body>
-</html>
+  )
+}
+
+export default Navbar
+
