@@ -11,7 +11,7 @@ const Navbar = () => {
                 <p className="logo_name">One wallet</p>
             </div>
             <div className="nav_btn">
-                <button className="btn">Download App</button>
+                <button className="navbar_btn btn">Download App</button>
             </div>
         </nav>
     </section>

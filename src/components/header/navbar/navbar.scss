@@ -1,7 +1,26 @@
 .navbar_section {
     .navbar {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+
+        .nav_btn {
+            .navbar_btn {
+                background: rgb(6, 6, 134);
+                color: #fff;
+                height: 3rem;
+                width: 10rem;
+                font-size: 1rem;
+                margin-top: 1.5rem;
+                border: 2px solid #fff;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row !important;
+        justify-content: space-between !important;
     }
 }

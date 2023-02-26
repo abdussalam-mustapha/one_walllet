@@ -1,0 +1,63 @@
+.featuresmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featuresmain .col_1 {
+  width: 90%;
+}
+.featuresmain .col_1 .col_1-img {
+  width: 100%;
+}
+.featuresmain .col_2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featuresmain .col_2 .card_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featuresmain .col_2 .card_box .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
+  margin: 3rem 0;
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+}
+.featuresmain .col_2 .card_box .card img {
+  height: 3rem;
+  width: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .featuresmain {
+    flex-direction: row !important;
+    justify-content: space-around !important;
+  }
+  .col_2 .card_box {
+    justify-content: unset !important;
+    align-items: unset !important;
+    text-align: left !important;
+  }
+  .col_2 .card_box .card {
+    justify-content: unset !important;
+    align-items: unset !important;
+    text-align: left;
+  }
+  .col_2 .card_box .card .details {
+    text-align: left !important;
+  }
+}/*# sourceMappingURL=featuresmain.css.map */
