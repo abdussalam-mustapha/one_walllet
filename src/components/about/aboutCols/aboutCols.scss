@@ -1,0 +1,25 @@
+.about_cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .about_cols-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 300px;
+            padding: 0 4rem;
+            box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+            margin-top: 3rem;
+        }
+    }
+}
