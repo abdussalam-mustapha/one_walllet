@@ -5,6 +5,12 @@
   align-items: center;
   background: rgb(1, 1, 151);
   color: #fff;
+  padding: 4rem 0;
+}
+.learn .l_header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
 }
 .learn .l_cols {
   display: flex;
@@ -20,6 +26,11 @@
   text-align: center;
   width: 90%;
   box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
+  margin-bottom: 2rem;
+}
+.learn .l_cols .card .l_t {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 .learn .l_cols .card .no_circle {
   background: #ffffff;
@@ -35,14 +46,27 @@
 }
 
 @media screen and (min-width: 768px) {
+  .learn {
+    padding: 6rem 0;
+  }
+  .learn .l_header {
+    font-size: 2rem;
+    font-weight: 700;
+  }
   .learn .l_cols {
     flex-direction: row !important;
+    flex-wrap: wrap !important;
+    padding: 3rem 0;
   }
   .learn .l_cols .card {
-    width: 250px !important;
+    width: 220px !important;
     text-align: left !important;
     justify-content: unset !important;
     align-items: unset !important;
     padding: 1rem;
+  }
+  .learn .l_cols .card .l_t {
+    font-size: 1.2rem;
+    font-weight: 500;
   }
 }/*# sourceMappingURL=learn.css.map */

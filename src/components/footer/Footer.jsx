@@ -1,6 +1,10 @@
 import React from 'react'
 
-import img1 from "../../images/Group_8.png"
+import icons from "../../images/Group_8.png"
+import img1 from "../../images/twitter.png"
+import img2 from "../../images/facebook.png"
+import img3 from "../../images/insta.png"
+import img4 from "../../images/youtube.png"
 
 import "./footer.css"
 
@@ -26,17 +30,17 @@ const Footer = () => {
                     </div>
                 </section>
                 <section className="col_2">
-                    <img src={img1} alt="" />
-                    <img src={img1} alt="" />
+                    <img src={icons} alt="" />
+                    <img src={icons} alt="" />
                 </section>
             </section>
             <section className="f_bar">
                 <p className="f_bar-text">&copy; 2023 One wallet all right reserved</p>
                 <div className="socials">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <img src={img1} alt="" />
+                    <img src={img2} alt="" />
+                    <img src={img3} alt="" />
+                    <img src={img4} alt="" />
                 </div>
             </section>
         </section>

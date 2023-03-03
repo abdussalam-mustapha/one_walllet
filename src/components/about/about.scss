@@ -42,9 +42,15 @@
             &:nth-child(8) {
                 transform: translateY(30px);
             }
-            &:nth-child(19) {
+            &:nth-child(9) {
                 transform: translateY(30px);
             }
         }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 6rem 0;
     }
 }

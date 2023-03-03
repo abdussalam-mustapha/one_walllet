@@ -17,7 +17,7 @@ const About = () => {
     return (
         <section className="about">
             <AboutCols />
-            <section className="cols_1_2">
+            {/* <section className="cols_1_2">
                 <section className="col_1">
                     <p className="a_feat">UNIQUE FEATURES</p>
                     <p className="col_1_header">Connect and Store all kinds of Cards</p>
@@ -38,7 +38,7 @@ const About = () => {
                     <img src={img8} alt="" className="img_8" />
                     <img src={img9} alt="" className="img_9" />
                 </section>
-            </section>
+            </section> */}
         </section>
     )
 }

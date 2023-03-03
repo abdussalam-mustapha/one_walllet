@@ -4,6 +4,10 @@
   justify-content: center;
   align-items: center;
 }
+.feat_section .feat_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .feat_section .f_cols {
   display: flex;
   flex-direction: column;
@@ -20,18 +24,39 @@
   align-items: center;
   color: #000;
   box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
-  margin: 3rem 0;
+  margin: 1rem 0;
   height: 300px;
   width: 90%;
   border-radius: 20px;
   text-align: center;
 }
-.feat_section .f_cols .card img {
-  width: 4rem;
-  height: 4rem;
+.feat_section .f_cols .card .img_cont {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(253, 174, 187);
+}
+.feat_section .f_cols .card .img_cont img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.feat_section .f_cols .card .c_t {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
+  .feat_section .abt_feat {
+    font-size: 1rem;
+  }
+  .feat_section .feat_title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: -0.2rem 0 2.5rem 0;
+  }
   .feat_section .f_cols {
     flex-direction: row !important;
     flex-wrap: wrap !important;

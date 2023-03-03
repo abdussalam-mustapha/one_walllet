@@ -1,6 +1,7 @@
 import React from 'react'
 
-import icons from "../../../images/image_1.svg"
+import icon1 from "../../../images/Shape_1.png"
+import icon2 from "../../../images/Forma_1.png"
 
 import "./features.css"
 
@@ -9,25 +10,25 @@ const Features = () => {
     const features = [
         {
             id: 0,
-            img: icons,
+            img: icon1,
             title: "Fast Performance",
             desc: "The product is optimized to give the best posisible performance among digital products"
         },
         {
             id: 1,
-            img: icons,
+            img: icon1,
             title: "Fast Performance",
             desc: "The product is optimized to give the best posisible performance among digital products"
         },
         {
             id: 2,
-            img: icons,
+            img: icon2,
             title: "Fast Performance",
             desc: "The product is optimized to give the best posisible performance among digital products"
         },
         {
             id: 3,
-            img: icons,
+            img: icon2,
             title: "Fast Performance",
             desc: "The product is optimized to give the best posisible performance among digital products"
         },
@@ -42,8 +43,10 @@ const Features = () => {
                     features.map((val, id) => {
                         return (
                             <section className="card" key={id}>
+                                <div className="img_cont">
                                 <img src={val.img} alt="img" />
-                                <p>{val.title}</p>
+                                </div>
+                                <p className='c_t'>{val.title}</p>
                                 <p>{val.desc}</p>
                             </section>
                         )

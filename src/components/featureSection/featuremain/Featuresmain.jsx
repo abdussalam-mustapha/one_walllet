@@ -27,7 +27,7 @@ const Featuresmain = () => {
             </section>
             <section className="col_2">
                 <p className="u_feat">UNIQUE FEATURES</p>
-                <p className="u_title">FEATURES THAT WOULD MAKE THIS APP EVEN BETTER TO PLEASE YOU</p>
+                <p className="u_title">Features that would make this app even better to please you</p>
                 <section className="card_box">
                     {
                         featuresDesc.map((val, id) => {

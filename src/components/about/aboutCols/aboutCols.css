@@ -4,20 +4,47 @@
   justify-content: center;
   align-items: center;
 }
+.about_cols .about_header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
 .about_cols .about_cols-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 .about_cols .about_cols-col .card {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: 300px;
-  padding: 0 4rem;
+  padding: 0 1rem;
   box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
-  margin-top: 3rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.about_cols .about_cols-col .card .d_box .d_t {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .about_header {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .about_cols-col {
+    flex-direction: row !important;
+  }
+  .about_cols-col .card {
+    width: 200px !important;
+    height: 180px;
+    margin: 0 1rem;
+  }
 }/*# sourceMappingURL=aboutCols.css.map */

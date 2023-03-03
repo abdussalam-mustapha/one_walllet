@@ -13,11 +13,13 @@
             text-align: center;
             margin-bottom: -0.2rem;
         }
+
         .h_desc {
             font-size: 1.4rem;
             text-align: center;
             margin-bottom: 2.5rem;
         }
+
         .c1_btn-section {
             display: flex;
             flex-direction: column;
@@ -28,19 +30,23 @@
                 background: #fff;
                 color: rgb(6, 6, 134);
                 border: none;
-                height: 3rem;
-                width: 10rem;
-                font-size: 1rem;
+                height: 2.4rem;
+                width: 9rem;
+                font-size: .8rem;
                 border-radius: 20px;
+                cursor: pointer;
+                margin: 0 .5rem;
             }
+
             .btn_2 {
-                background: rgb(6, 6, 134);
+                background: transparent;
                 color: #fff;
-                height: 3rem;
-                width: 10rem;
-                font-size: 1rem;
-                border-radius: 20px;
+                height: 2.4rem;
+                width: 9rem;
+                font-size: .8rem;
                 border: none;
+                cursor: pointer;
+                margin: 0 .5rem;
             }
         }
     }
@@ -50,6 +56,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 4rem;
+
         .col_2-img {
             width: 300px;
             height: 350px;
@@ -61,18 +68,95 @@
     .hero_section {
         flex-direction: row !important;
         justify-content: space-evenly !important;
+        height: 100% !important;
 
         .col_1 {
+            padding: 0 9rem;
             .h_text {
                 text-align: left !important;
+                // font-family: 'Migra';
+                // font-style: normal;
+                // font-weight: 800;
+                font-size: 5rem;
+                
+                // line-height: 98px;
+                // /* or 136% */
+                // font-feature-settings: 'salt' on, 'liga' off;
+                // color: #FFFFFF;
+                // /* Inside auto layout */
+                // flex: none;
+                // order: 0;
+                // flex-grow: 0;
             }
+
             .h_desc {
                 text-align: left !important;
+                // font-family: 'Inter';
+                // font-style: normal;
+                // font-weight: 400;
+                // font-size: 18px;
+                // line-height: 32px;
+                // /* identical to box height, or 178% */
+                // font-feature-settings: 'salt' on, 'liga' off;
+                // color: #FFFFFF;
+                // /* Inside auto layout */
+                // flex: none;
+                // order: 1;
+                // flex-grow: 0;
             }
+
             .c1_btn-section {
                 width: 100%;
                 flex-direction: row !important;
+                justify-content: unset !important;
+                align-items: unset !important;
+
+                .btn_1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 28px;
+                    // gap: 10px;
+                    // position: absolute;
+                    // width: 166px;
+                    // height: 48px;
+                    // left: 0px;
+                    // top: 276px;
+                    // background: #FFFFFF;
+                    // border-radius: 50px;
+                }
+
+                .btn_2 {
+                    // position: absolute;
+                    // width: 86px;
+                    // height: 19px;
+                    // left: 35px;
+                    // top: 6px;
+                    // font-family: 'Inter';
+                    // font-style: normal;
+                    // font-weight: 500;
+                    // font-size: 16px;
+                    // line-height: 19px;
+                    // display: flex;
+                    // align-items: center;
+                    // text-align: center;
+                    // letter-spacing: -0.16px;
+                    // color: #FFFFFF;
+                }
             }
         }
-    }   
+
+        .col_2 {
+            .col_2-img {
+                // position: absolute;
+                width: 326.99px;
+                height: 595.86px;
+                // left: 955.96px;
+                // top: 220px;
+            }
+        }
+    }
 }
+
+// color: #0F2137;

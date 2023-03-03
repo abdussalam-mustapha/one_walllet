@@ -6,7 +6,7 @@ import Features from './features/Features'
 
 const FeatureSection = () => {
   return (
-    <section className="feat_section">
+    <section className="f_section">
         <Features />
         <Featuresmain />
     </section>

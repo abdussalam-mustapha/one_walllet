@@ -8,7 +8,8 @@
         width: 90%;
 
         .col_1-img {
-            width: 100%;
+            width: 300px;
+            height: 500px;
         }
     }
 
@@ -18,6 +19,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 5rem 0;
+
+        .u_title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+        }
 
         .card_box {
             display: flex;
@@ -32,11 +40,15 @@
                 align-items: center;
                 color: #000;
                 box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
-                margin: 3rem 0;
+                margin: 1rem 0;
                 height: 300px;
                 width: 100%;
                 border-radius: 20px;
                 text-align: center;
+                .c_title {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                }
 
                 img {
                     height: 3rem;
@@ -50,21 +62,41 @@
 @media screen and (min-width: 768px) {
     .featuresmain {
         flex-direction: row !important;
-        justify-content: space-around !important;
-    }
-    .col_2 {
-        .card_box {
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        .col_1 {
+            width: 30% !important;
+        }
+        .col_2 {
+            width: 30% !important;
             justify-content: unset !important;
             align-items: unset !important;
-            text-align: left !important;
-            .card {
+            .u_title{
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+            .card_box {
+                margin-top: -2rem;
+                flex-direction: row !important;
+                width: 100% !important;
+                flex-wrap: wrap !important;
                 justify-content: unset !important;
                 align-items: unset !important;
-                text-align: left;
-                .details {
-                    text-align: left !important;
+                text-align: left !important;
+                .card {
+                    flex-direction: row !important;
+                    justify-content: space-between !important;
+                    height: 100%;
+                    width: 100%;
+                    margin:  1rem !important;
+                    padding: 1rem;
+                    .details {
+                        text-align: left !important;
+                        margin-left: 1rem;
+                    }
                 }
             }
         }
     }
+    
 }

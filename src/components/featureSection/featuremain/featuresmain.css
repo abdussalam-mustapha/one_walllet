@@ -8,7 +8,8 @@
   width: 90%;
 }
 .featuresmain .col_1 .col_1-img {
-  width: 100%;
+  width: 300px;
+  height: 500px;
 }
 .featuresmain .col_2 {
   width: 90%;
@@ -16,6 +17,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5rem 0;
+}
+.featuresmain .col_2 .u_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
 }
 .featuresmain .col_2 .card_box {
   display: flex;
@@ -31,11 +38,15 @@
   align-items: center;
   color: #000;
   box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
-  margin: 3rem 0;
+  margin: 1rem 0;
   height: 300px;
   width: 100%;
   border-radius: 20px;
   text-align: center;
+}
+.featuresmain .col_2 .card_box .card .c_title {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 .featuresmain .col_2 .card_box .card img {
   height: 3rem;
@@ -45,19 +56,40 @@
 @media screen and (min-width: 768px) {
   .featuresmain {
     flex-direction: row !important;
-    justify-content: space-around !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
   }
-  .col_2 .card_box {
+  .featuresmain .col_1 {
+    width: 30% !important;
+  }
+  .featuresmain .col_2 {
+    width: 30% !important;
+    justify-content: unset !important;
+    align-items: unset !important;
+  }
+  .featuresmain .col_2 .u_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .featuresmain .col_2 .card_box {
+    margin-top: -2rem;
+    flex-direction: row !important;
+    width: 100% !important;
+    flex-wrap: wrap !important;
     justify-content: unset !important;
     align-items: unset !important;
     text-align: left !important;
   }
-  .col_2 .card_box .card {
-    justify-content: unset !important;
-    align-items: unset !important;
-    text-align: left;
+  .featuresmain .col_2 .card_box .card {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    height: 100%;
+    width: 100%;
+    margin: 1rem !important;
+    padding: 1rem;
   }
-  .col_2 .card_box .card .details {
+  .featuresmain .col_2 .card_box .card .details {
     text-align: left !important;
+    margin-left: 1rem;
   }
 }/*# sourceMappingURL=featuresmain.css.map */

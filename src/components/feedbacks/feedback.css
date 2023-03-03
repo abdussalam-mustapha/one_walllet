@@ -1,1 +1,18 @@
-/*# sourceMappingURL=feedback.css.map */
+.slider_sect {
+  padding: 8rem 0 0 0;
+}
+.slider_sect .t_header {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.slider_sect .t_text {
+  text-align: center;
+}
+.slider_sect .card_parent .card {
+  width: 300px;
+  height: 250px;
+  padding: 0 1rem;
+  margin: 3rem 0;
+  box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
+}/*# sourceMappingURL=feedback.css.map */

@@ -44,6 +44,12 @@
 .cols_1_2 .col_2 img:nth-child(8) {
   transform: translateY(30px);
 }
-.cols_1_2 .col_2 img:nth-child(19) {
+.cols_1_2 .col_2 img:nth-child(9) {
   transform: translateY(30px);
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 6rem 0;
+  }
 }/*# sourceMappingURL=about.css.map */

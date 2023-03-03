@@ -43,7 +43,7 @@ const Learn = () => {
                                 <div className="no_circle">
                                     <p className="no">0{val.no}</p>
                                 </div>
-                                <p>{val.title}</p>
+                                <p className='l_t'>{val.title}</p>
                                 <p>{val.desc}</p>
                             </div>
                         )

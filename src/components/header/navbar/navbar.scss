@@ -2,17 +2,29 @@
     .navbar {
         display: flex;
         flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
 
         .nav_btn {
             .navbar_btn {
-                background: rgb(6, 6, 134);
+                background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+                border: 1px solid rgb(252, 250, 250);
                 color: #fff;
-                height: 3rem;
-                width: 10rem;
-                font-size: 1rem;
-                margin-top: 1.5rem;
-                border: 2px solid #fff;
+                height: 2.4rem;
+                width: 9rem;
+                font-size: .8rem;
+                margin-top: 1.9rem;
+                margin-right: 6rem;
+                margin-left: 1rem;
                 border-radius: 20px;
+            }
+        }
+        .logo_section {
+            p {
+                font-size: 1.5rem;
+                color: #fff;
+                margin-left: 1rem;
+                font-weight: 600;
             }
         }
     }
@@ -22,5 +34,14 @@
     .navbar {
         flex-direction: row !important;
         justify-content: space-between !important;
+        padding-top: 1rem;
+
+        .logo_section {
+            p {
+                font-size: 1.2rem;
+                color: #fff;
+                margin-left: 7.5rem !important;
+            }
+        }
     }
 }

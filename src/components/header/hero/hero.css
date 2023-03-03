@@ -27,19 +27,22 @@
   background: #fff;
   color: rgb(6, 6, 134);
   border: none;
-  height: 3rem;
-  width: 10rem;
-  font-size: 1rem;
+  height: 2.4rem;
+  width: 9rem;
+  font-size: 0.8rem;
   border-radius: 20px;
+  cursor: pointer;
+  margin: 0 0.5rem;
 }
 .hero_section .col_1 .c1_btn-section .btn_2 {
-  background: rgb(6, 6, 134);
+  background: transparent;
   color: #fff;
-  height: 3rem;
-  width: 10rem;
-  font-size: 1rem;
-  border-radius: 20px;
+  height: 2.4rem;
+  width: 9rem;
+  font-size: 0.8rem;
   border: none;
+  cursor: pointer;
+  margin: 0 0.5rem;
 }
 .hero_section .col_2 {
   display: flex;
@@ -56,9 +59,14 @@
   .hero_section {
     flex-direction: row !important;
     justify-content: space-evenly !important;
+    height: 100% !important;
+  }
+  .hero_section .col_1 {
+    padding: 0 9rem;
   }
   .hero_section .col_1 .h_text {
     text-align: left !important;
+    font-size: 5rem;
   }
   .hero_section .col_1 .h_desc {
     text-align: left !important;
@@ -66,5 +74,18 @@
   .hero_section .col_1 .c1_btn-section {
     width: 100%;
     flex-direction: row !important;
+    justify-content: unset !important;
+    align-items: unset !important;
+  }
+  .hero_section .col_1 .c1_btn-section .btn_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+  }
+  .hero_section .col_2 .col_2-img {
+    width: 326.99px;
+    height: 595.86px;
   }
 }/*# sourceMappingURL=hero.css.map */

@@ -34,13 +34,13 @@ const AboutCols = () => {
                 {
                     aboutItems.map((val, id) => {
                         return (
-                            <div className="card">
+                            <div className="card" key={id}>
                                 <div className="cols">
                                     <div className="logo"><img src="" alt="" /></div>
                                 </div>
                                 <div className="d_box">
                                     <img src={icon} alt="" />
-                                    <p>{val.title}</p>
+                                    <p className='d_t'>{val.title}</p>
                                     <p>{val.desc}</p>
                                 </div>
                             </div>
