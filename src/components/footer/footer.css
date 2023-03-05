@@ -2,7 +2,7 @@
   color: #fff;
 }
 .footer .f_row {
-  background-color: rgb(4, 4, 185);
+  background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,11 +46,17 @@
 }
 .footer .f_bar .socials {
   margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer .f_bar .socials img {
   height: 25px;
   width: 25px;
   margin: 0 1rem;
+}
+.footer .f_bar .socials img:nth-child(4) {
+  margin-top: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {

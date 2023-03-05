@@ -3,10 +3,62 @@
 
 .header {
   background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
-  border-bottom-right-radius: 100px;
+  border-bottom-right-radius: 200px;
   height: 100%;
 }
 
 .f_section {
   padding: 3rem 0;
 }
+
+#phone_img {
+  animation: animate 3s infinite;
+  position: relative;
+}
+
+.control-btn .next,
+.control-btn .prev {
+  position: absolute;
+  top: 90%;
+  width: 30px;
+  height: 30px;
+  line-height: 60px;
+  background: #0f3460;
+  border-radius: 50%;
+  transform: 0.5s;
+  z-index: 5;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-btn .prev {
+  left: 7.5rem;
+}
+.control-btn .next {
+  right: 7.5rem;
+}
+.control-btn .prev i,
+.control-btn .next i {
+  font-size: 20px;
+  transition: 0.5s;
+  color: #fff;
+}
+.control-btn .prev:hover,
+.control-btn .next:hover {
+  background: #2638db;
+  color: white;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  from {top: 0px}
+  to {top: 20px}
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    border-bottom-right-radius: 150px !important;
+  }
+}
+

@@ -3,7 +3,7 @@ import React from 'react'
 import icons from "../../images/Group_8.png"
 import img1 from "../../images/twitter.png"
 import img2 from "../../images/facebook.png"
-import img3 from "../../images/insta.png"
+import img3 from "../../images/instagram.png"
 import img4 from "../../images/youtube.png"
 
 import "./footer.css"

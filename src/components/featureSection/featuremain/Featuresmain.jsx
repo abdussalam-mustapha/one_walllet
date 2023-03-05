@@ -2,19 +2,21 @@ import React from 'react'
 import "./featuresmain.css"
 
 import phone from "../../../images/Group_8.png"
+import img1 from "../../../images/crown.png"
+import img2 from "../../../images/briefcase.png"
 
 const Featuresmain = () => {
 
     const featuresDesc = [
         {
             id: 0,
-            img: phone,
+            img: img1,
             title: "Smart Features",
             desc: "There are a lot of smart features for african users and users all over the world"
         },
         {
             id: 1,
-            img: phone,
+            img: img2,
             title: "Secure Comments",
             desc: "There are a lot of smart features for african users and users all over the world"
         }
@@ -33,7 +35,9 @@ const Featuresmain = () => {
                         featuresDesc.map((val, id) => {
                             return (
                                 <div className="card" key={id}>
-                                    <img src={phone} alt="" className="icon" />
+                                    <div className="img_cont">
+                                        <img src={val.img} alt="" className="icon" />
+                                    </div>
                                     <div className="details">
                                         <p className="c_title">{val.title}</p>
                                         <p className="c_desc">{val.desc}</p>

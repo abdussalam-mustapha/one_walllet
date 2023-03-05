@@ -1,5 +1,6 @@
 .slider_sect {
     padding: 8rem 0 0 0;
+    
 
     .t_header {
         font-size: 2rem;
@@ -18,5 +19,11 @@
             margin: 3rem 0;
             box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
         }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slider_sect {
+        padding-left: 4rem !important;
     }
 }

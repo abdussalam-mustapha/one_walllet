@@ -63,12 +63,34 @@ const Feedbacks = () => {
     }
   ]
 
+  const SampleNextArrow = (props) => {
+    const { onClick } = props
+    return (
+      <div className='control-btn' onClick={onClick}>
+        <button className='next'>
+          <i className='fa fa-long-arrow-alt-right'></i>
+        </button>
+      </div>
+    )
+  }
+  const SamplePrevArrow = (props) => {
+    const { onClick } = props
+    return (
+      <div className='control-btn' onClick={onClick}>
+        <button className='prev'>
+          <i className='fa fa-long-arrow-alt-left'></i>
+        </button>
+      </div>
+    )
+  }
+
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    control: true,
     responsive: [
       {
         breakpoint: 768,
@@ -84,6 +106,9 @@ const Feedbacks = () => {
         settings: {
           slidesToScroll: 1,
           slidesToShow: 1,
+          dots: false,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         }
       }
     ]

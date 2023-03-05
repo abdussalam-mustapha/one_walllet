@@ -8,14 +8,14 @@ const Hero = () => {
     <section className='hero_section'>
         <section className="col_1">
             <p className="h_text">A safer way to keep your cards</p>
-            <p className="h_desc">This plat form aids you store your cards for future use</p>
+            <p className="h_desc">This platform aids you store your cards for future use</p>
             <div className="c1_btn-section">
                 <button className="btn_1 btn">Download App</button>
                 <button className="btn_2 btn">Learn More</button>
             </div>
         </section>
         <section className="col_2">
-            <img src={phoneImg} alt="" className="col_2-img" />
+            <img src={phoneImg} alt="" className="col_2-img" id="phone_img"/>
         </section>
     </section>
   )

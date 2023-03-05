@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    overflow-x: hidden;
+    width: 100%;
     color: #fff;
+    padding: 0 0.2rem 2rem 0.2rem;
 
     .col_1 {
         .h_text {
@@ -69,40 +69,17 @@
         flex-direction: row !important;
         justify-content: space-evenly !important;
         height: 100% !important;
+        width: 90% !important;
 
         .col_1 {
             padding: 0 9rem;
             .h_text {
                 text-align: left !important;
-                // font-family: 'Migra';
-                // font-style: normal;
-                // font-weight: 800;
                 font-size: 5rem;
-                
-                // line-height: 98px;
-                // /* or 136% */
-                // font-feature-settings: 'salt' on, 'liga' off;
-                // color: #FFFFFF;
-                // /* Inside auto layout */
-                // flex: none;
-                // order: 0;
-                // flex-grow: 0;
             }
 
             .h_desc {
                 text-align: left !important;
-                // font-family: 'Inter';
-                // font-style: normal;
-                // font-weight: 400;
-                // font-size: 18px;
-                // line-height: 32px;
-                // /* identical to box height, or 178% */
-                // font-feature-settings: 'salt' on, 'liga' off;
-                // color: #FFFFFF;
-                // /* Inside auto layout */
-                // flex: none;
-                // order: 1;
-                // flex-grow: 0;
             }
 
             .c1_btn-section {
@@ -117,46 +94,17 @@
                     justify-content: center;
                     align-items: center;
                     padding: 12px 28px;
-                    // gap: 10px;
-                    // position: absolute;
-                    // width: 166px;
-                    // height: 48px;
-                    // left: 0px;
-                    // top: 276px;
-                    // background: #FFFFFF;
-                    // border-radius: 50px;
                 }
 
-                .btn_2 {
-                    // position: absolute;
-                    // width: 86px;
-                    // height: 19px;
-                    // left: 35px;
-                    // top: 6px;
-                    // font-family: 'Inter';
-                    // font-style: normal;
-                    // font-weight: 500;
-                    // font-size: 16px;
-                    // line-height: 19px;
-                    // display: flex;
-                    // align-items: center;
-                    // text-align: center;
-                    // letter-spacing: -0.16px;
-                    // color: #FFFFFF;
-                }
             }
         }
 
         .col_2 {
             .col_2-img {
-                // position: absolute;
                 width: 326.99px;
                 height: 595.86px;
-                // left: 955.96px;
-                // top: 220px;
             }
         }
     }
 }
 
-// color: #0F2137;
